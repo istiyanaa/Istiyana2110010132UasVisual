@@ -213,6 +213,7 @@ begin
     end;
   end;
 end;
+
 procedure TForm1.btn6Click(Sender: TObject);
 begin
  frxrprt1.ShowReport();
