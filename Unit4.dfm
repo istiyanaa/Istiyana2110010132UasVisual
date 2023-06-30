@@ -1,9 +1,9 @@
 object Form4: TForm4
   Left = 342
   Top = 165
-  Width = 928
+  Width = 686
   Height = 480
-  Caption = 'Form4'
+  Caption = 'Data Poin'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -164,7 +164,7 @@ object Form4: TForm4
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'dbma_smiip_banjarmasinn'
+    Database = 'dbma_smiip_banjarmasin'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\Delphi4N\libmysql.dll'

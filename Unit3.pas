@@ -271,7 +271,7 @@ end;
 
 procedure TForm3.btn6Click(Sender: TObject);
 begin
-  posisiawal;
+frxrprt1.ShowReport();
 end;
 
 procedure TForm3.btn5Click(Sender: TObject);

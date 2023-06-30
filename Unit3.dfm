@@ -3,7 +3,7 @@ object Form3: TForm3
   Top = 248
   Width = 928
   Height = 480
-  Caption = 'Form3'
+  Caption = 'Data Orang Tua'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -229,7 +229,7 @@ object Form3: TForm3
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'dbma_smiip_banjarmasinn'
+    Database = 'dbma_smiip_banjarmasin'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\Delphi4N\libmysql.dll'
@@ -254,7 +254,7 @@ object Form3: TForm3
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.437745243100000000
-    ReportOptions.LastChange = 45103.514291956020000000
+    ReportOptions.LastChange = 45106.837743761570000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -480,6 +480,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."id_ortu"]')
           ParentFont = False
@@ -498,6 +499,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."nik"]')
           ParentFont = False
@@ -516,13 +518,14 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."nama"]')
           ParentFont = False
         end
         object Memo15: TfrxMemoView
-          Left = 253.228510000000000000
-          Width = 94.488250000000000000
+          Left = 249.448980000000000000
+          Width = 98.267780000000000000
           Height = 18.897650000000000000
           DataField = 'pendidikan'
           DataSet = frxdbdtst1
@@ -534,6 +537,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."pendidikan"]')
           ParentFont = False
@@ -552,6 +556,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."pekerjaan"]')
           ParentFont = False
@@ -570,6 +575,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."telp"]')
           ParentFont = False
@@ -588,6 +594,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."alamat"]')
           ParentFont = False
@@ -606,6 +613,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."jenis_kelamin"]')
           ParentFont = False
@@ -624,6 +632,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."agama"]')
           ParentFont = False
@@ -642,6 +651,7 @@ object Form3: TForm3
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             '[frxdbdtst1."status"]')
           ParentFont = False
